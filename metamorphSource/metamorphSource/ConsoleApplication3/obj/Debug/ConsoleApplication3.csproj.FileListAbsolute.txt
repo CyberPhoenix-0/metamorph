@@ -1,0 +1,9 @@
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\bin\Debug\RestSharp.dll
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\bin\Debug\RestSharp.xml
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\obj\Debug\ConsoleApplication3.csprojAssemblyReference.cache
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.CoreCompileInputs.cache
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.CopyComplete
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\Jupiter\RiderProjects\Solution1\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
