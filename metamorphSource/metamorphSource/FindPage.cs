@@ -11,14 +11,16 @@ namespace ConsoleApplication3
 {
     public class FindPage
     {
-        
+        public static string _url;
+
+        public FindPage(string url)
+        {
+            FindPage._url = url;
+        }
         public async Task Find()
         {
-            Console.Write("Entrez l'adresse URL du site web : ");
-            string url = Console.ReadLine();
-            
-            FileStream log = File.Create(@"C:\Users\Jupiter\Desktop\project\log.txt");
-            StreamReader streamReader = new StreamReader(@"C:\Users\Jupiter\Desktop\project\common.txt");
+            FileStream log = File.Create("log.txt");
+            StreamReader streamReader = new StreamReader("common.txt");
             string ligne;
             List<string> found = new List<string>();
 
@@ -26,17 +28,14 @@ namespace ConsoleApplication3
             {
                 using (var httpClient = new HttpClient())
                 {
-                    using (var request = new HttpRequestMessage(new HttpMethod("GET"), url + ligne ))
+                    using (var request = new HttpRequestMessage(new HttpMethod("GET"), _url + ligne ))
                     {
                         var response = await httpClient.SendAsync(request);
-                        Console.WriteLine(url + ligne + "\t Status: " + response.StatusCode);
+                        Console.WriteLine(_url + ligne + "\t Status: " + response.StatusCode);
                         if (response.StatusCode == HttpStatusCode.OK)
                         {
-                            found.Add(url + ligne + "\t Status: " + response.StatusCode);
+                            found.Add(_url + ligne + "\t Status: " + response.StatusCode);
                         }
-                        
-
-
                     }
                 }
             }
