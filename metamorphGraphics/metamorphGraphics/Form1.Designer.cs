@@ -50,13 +50,13 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (41)))), ((int) (((byte) (44)))), ((int) (((byte) (45)))));
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1013, 355);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -78,9 +78,10 @@
             // 
             // websiteTitle
             // 
-            this.websiteTitle.BackColor = System.Drawing.SystemColors.Control;
+            this.websiteTitle.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (41)))), ((int) (((byte) (44)))), ((int) (((byte) (45)))));
             this.websiteTitle.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.websiteTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.websiteTitle.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (192)))), ((int) (((byte) (192)))));
             this.websiteTitle.Location = new System.Drawing.Point(18, 411);
             this.websiteTitle.Name = "websiteTitle";
             this.websiteTitle.Size = new System.Drawing.Size(260, 19);
@@ -99,16 +100,17 @@
             this.scanButton.UseVisualStyleBackColor = true;
             this.scanButton.Click += new System.EventHandler(this.scanButton_Click);
             // 
-            // Metamorph
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (40)))), ((int) (((byte) (41)))), ((int) (((byte) (45)))));
             this.ClientSize = new System.Drawing.Size(1106, 530);
             this.Controls.Add(this.scanButton);
             this.Controls.Add(this.websiteTitle);
             this.Controls.Add(this.addressBox);
             this.Controls.Add(this.tabControl1);
-            this.Name = "Metamorph";
+            this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
